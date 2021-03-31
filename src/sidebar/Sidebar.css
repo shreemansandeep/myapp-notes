@@ -1,0 +1,31 @@
+.app-sidebar {
+    background: #c58103;
+}
+.add-note {
+    color:white;
+    background:black;
+    padding:5px 15px;
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 5px 1px rgb(121, 69, 2);
+    transition: .4s;
+  }
+  .add-note:hover {
+      color:rgb(74, 172, 253);
+  }
+
+ span {
+     font-size: 25px;
+ }
+ .delete {
+     font-weight: 450;
+     background:black;
+     padding:7px 15px;
+     border:1px solid white;
+     border-radius: 10px;
+     box-shadow: 0 4px 5px 1px rgb(121, 69, 2);
+     transition: .4s;
+ }
+ .delete:hover {
+     color: white;
+ }
