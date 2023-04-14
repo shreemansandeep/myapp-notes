@@ -33,11 +33,7 @@ pipeline {
             }
             }  
             
-            stage('Remove Docker Images From Local') {
-            steps {
-                sh 'docker rmi -f $(docker images)'
-            }
-        }
+            
             
     }
 }
