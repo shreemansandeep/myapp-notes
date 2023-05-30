@@ -61,7 +61,7 @@ pipeline {
                 sh '''
                     git config user.email "shreemansandeep@gmail.com"
                     git config user.name "shreemansandeep"
-                    BUILD_NUMBER=v1.${BUILD_NUMBER}
+                    BUILD_NUMBER=${BUILD_NUMBER}
                     sed -i "s/replaceImageTag/${BUILD_NUMBER}/g" k8sargo/k8sargo-manifest.yml
                     git add . k8sargo/k8sargo-manifest.yml
                     git commit -m "Update deployment image to version ${BUILD_NUMBER}"
