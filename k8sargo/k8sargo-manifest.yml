@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: my-react-app
-        image: dockersandheep/react-pipe:1
+        image: dockersandheep/react-pipe:replaceImageTag
         ports:
         - containerPort: 3000
         env:
