@@ -26,4 +26,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 **YOU ARE FREE TO USE THIS SOURCE CODE HOWEVER YOU SEE FIT**
 
-(c) 2021 James Grimshaw
