@@ -9,7 +9,7 @@ spec:
   ingressClassName: nginx
   tls:
   - hosts:
-    - http://a6a9beedadfd54fbba1ee88e2ccbab09-2084691509.ap-south-1.elb.amazonaws.com/
+    - a6a9beedadfd54fbba1ee88e2ccbab09-2084691509.ap-south-1.elb.amazonaws.com/
     secretName: react-tls-secret
   rules:
     - http:
