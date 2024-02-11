@@ -4,9 +4,10 @@ metadata:
   namespace: ingress-nginx
   name: react-ingress
   annotations:
+    kubernetes.io/ingress.class: nginx
     cert-manager.io/cluster-issuer: letsencrypt-prod
 spec:
-  ingressClassName: nginx
+ # ingressClassName: nginx
   tls:
   - hosts:
     - a6a9beedadfd54fbba1ee88e2ccbab09-2084691509.ap-south-1.elb.amazonaws.com/
